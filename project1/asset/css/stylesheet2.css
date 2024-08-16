@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact{
+    position:relative;
+    min-height: 100px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size:  100% ;
+    background-repeat: no-repeat;
+}
+body{
+    background-image: url("../img/img4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.contact .content{
+max-width: 800px;
+text-align: center;
+}
+.contact .content h2{
+     font-size: 40px;
+     font-weight: 500;
+     color: white;
+}
+.contact .content p{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon{
+    min-width: 40px;
+    height: 40px;
+    background: #f3f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+}
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text{
+    font-weight: 500;
+    color: #d1dff7e3;
+}
+.contactform{
+width: 40%;
+padding: 50px;
+background-color: rgb(255, 255, 255);
+}
+.contactform h2{
+    font-size: 30px;
+    color: #141216ab;
+    font-weight: 500px;
+}
+.contactform .inputBox{
+position: relative;
+width: 100%;
+margin-top: 10px;
+}
+.contactform .inputBox input,
+.contactform .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    resize: none;
+}
+.contactform .inputBox input[type="submit"]{
+width: 100px;
+background:rgba(56, 54, 54, 0.884);
+color: white;
+border: none;
+cursor: pointer;
+padding: 10px;
+font-size: 15px;
+}
+@media (max-width:830px)
+{
+.contact{
+    padding: 50px;
+}
+.container{
+    flex-direction: column;
+}
+.container .contactInfo{
+    margin-bottom: 10px;
+}
+.container .contactInfo,
+.contactform{
+    width: 100%;
+}
+
+
+}

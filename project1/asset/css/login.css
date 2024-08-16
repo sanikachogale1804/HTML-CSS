@@ -1,0 +1,17 @@
+.box
+{
+    border: 2px solid black;
+    background-color: white;
+    height: 260px;
+    width: 300px;
+    display: grid;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+}
+h3{
+    font-family: "Roboto", sans-serif;
+    margin-left: 120px;
+    color: blue;
+}
+

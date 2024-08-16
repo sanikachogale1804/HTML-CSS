@@ -1,0 +1,18 @@
+div{
+    border: 2px solid black;
+}
+#box1{
+    width: 500px;
+    float: left;
+}
+#box2{
+    width: 300px;
+    float: right;
+}
+body{
+background-image: url(../../img/flower.png);
+background-repeat: no-repeat;
+/* cover contan percenteage */
+background-size: 25%;
+background-position: top left 80px;
+}

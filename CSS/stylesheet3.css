@@ -1,0 +1,16 @@
+/* descendent selector */
+/* .box  p{
+
+    background-color: red;
+} */
+
+/* Child selector */
+/* .box>p{
+
+    background-color: red;
+} */
+
+div~p{
+    background-color: red;
+
+}

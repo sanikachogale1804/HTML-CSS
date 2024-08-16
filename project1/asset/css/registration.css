@@ -1,0 +1,12 @@
+.box
+{
+    border: 2px solid black;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    display: grid;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    
+}

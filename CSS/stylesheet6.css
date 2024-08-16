@@ -1,0 +1,48 @@
+.para
+{
+    background-color: aqua;
+    font-size: 20px;
+    color: blueviolet;
+    width: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#para1
+{
+    word-spacing: 30px;
+}
+
+#para2{
+
+    text-align: right;
+    letter-spacing: 20px;
+}
+
+#para3
+{
+    text-align: center;
+    line-height: 100px;
+}
+
+#para4
+{
+    text-align: justify;
+}
+
+h1
+{
+    /*  underline-type of line  : 2px is width of underline
+        double is a type of underline :red is color of underline */
+   
+     /* text-decoration: 2px underline double red ;  */
+     /* text-decoration: 20px overline double plum ;  */
+       text-decoration: 2px line-through double red ; 
+    /* overline underline line-through */
+}
+
+#para5{
+    font-weight: bold;
+}
+
+#para6{
+    font-style: italic;
+}

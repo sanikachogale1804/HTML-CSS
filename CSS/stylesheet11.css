@@ -1,0 +1,29 @@
+.box{
+    width: 200px;
+    height: 200px;
+    /* position: absolute; */
+    /* fixd sticky (sticky is combination of elative and fixed) */
+    /* position: sticky; */
+}
+/* 
+#box1{
+    background-color: red;
+    /* left: 100px;
+    left: 10px;
+    top: 20px;
+    z-index: 3;
+}
+#box2{
+    background-color: blue;
+    /* left: 200px; */
+    /* left: 20px;
+    top:40px;
+    z-index: 2; */
+/* }
+#box3{
+    background-color: green;
+    /* left :300px; */
+    /* left: 30px;
+    top: 50px;
+    z-index: 1;
+}  */  
